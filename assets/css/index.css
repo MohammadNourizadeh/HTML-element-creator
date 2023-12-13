@@ -14,11 +14,19 @@
 .king .my-row .input-col form div input[type=text]:focus {
   box-shadow: 0px 0px 5px 1px rgb(80, 80, 80);
 }
-.king .my-row .input-col form button {
+.king .my-row .input-col form .create-btn {
   padding: 0.5rem 2rem;
   transition: padding 0.3s;
 }
-.king .my-row .input-col form button:hover {
+.king .my-row .input-col form .create-btn:hover {
+  padding: 0.5rem 4rem;
+  transition: padding 0.4s ease-in-out;
+}
+.king .my-row .input-col form .clear-btn {
+  padding: 0.5rem 2.3rem;
+  transition: padding 0.3s;
+}
+.king .my-row .input-col form .clear-btn:hover {
   padding: 0.5rem 4rem;
   transition: padding 0.4s ease-in-out;
 }
