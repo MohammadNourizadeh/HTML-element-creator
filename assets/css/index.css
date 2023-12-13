@@ -6,6 +6,7 @@
 }
 
 .king .my-row .input-col form div label {
+  text-transform: capitalize;
   font-size: large;
 }
 .king .my-row .input-col form div input::-moz-range-thumb {
