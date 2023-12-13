@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.king .my-row .input-col form div label {
+  font-size: large;
+}
+.king .my-row .input-col form div input::-moz-range-thumb {
+  background: rgba(0, 42, 255, 0.671);
+}
+.king .my-row .input-col form div input[type=text]:focus {
+  box-shadow: 0px 0px 5px 1px rgb(80, 80, 80);
+}
+.king .my-row .input-col form button {
+  padding: 0.5rem 2rem;
+  transition: padding 0.3s;
+}
+.king .my-row .input-col form button:hover {
+  padding: 0.5rem 4rem;
+  transition: padding 0.4s ease-in-out;
+}
+
+/*# sourceMappingURL=index.css.map */
