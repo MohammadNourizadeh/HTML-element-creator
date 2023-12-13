@@ -10,7 +10,10 @@ form.addEventListener('submit', (e) => {
     const tagWidth = document.getElementById('tagWidth');
     const tagHeight = document.getElementById('tagHeight');
 
-    clearBtn.classList.remove('d-none');
+    if (tagName.value !== '') {
+        clearBtn.classList.remove('d-none');
+    }
+
     const element = document.createElement(tagName.value);
     element.style.backgroundColor = tagColor.value;
     element.style.width = `${tagWidth.value}px`;
